@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bread Crumbs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body {
+            /* border: 2px solid red;
+            height: 500px;
+            width: 800px;  */
+            padding: 2rem 17rem; 
+             background-color: aqua; 
+        }
+
+        li {
+            text-transform: uppercase;
+        }
+
+        .breadcrumb {
+            background-color: gray;
+            padding: 1rem 1rem;
+            opacity: .7;
+        }
+
+        nav {
+            /* border: 50px  solid blue;
+            height: 400px;
+            width: 700px; */
+            background-color: whitesmoke;
+            padding: 2rem;
+            margin: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav aria-label="breadcrumb">
+        <div class="default">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+        <h4>Default Bootstrap breadcrumb</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam repellendus qui veniam magnam consequuntur
+            facilis veritatis, debitis ab, distinctio natus recusandae dicta aspernatur? Porro, recusandae aut libero
+            odit repellat dignissimos nobis enim rem voluptas vel expedita magni aperiam id obcaecati dicta suscipit
+            nulla dolor totam corrupti consectetur pariatur ex? Excepturi.</p>
+        </div>
+    </nav>
+
+    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider:'.';">
+        <div class="default1">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+        <h4>Breadcrumb with bullets</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam repellendus qui veniam magnam consequuntur
+            facilis veritatis, debitis ab, distinctio natus recusandae dicta aspernatur? Porro, recusandae aut libero
+            odit repellat dignissimos nobis enim rem voluptas vel expedita magni aperiam id obcaecati dicta suscipit
+            nulla dolor totam corrupti consectetur pariatur ex? Excepturi.</p>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

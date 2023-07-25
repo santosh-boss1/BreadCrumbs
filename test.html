@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <title>kjhf</title>
+    </head>
+    <body>
+        <h1>calculate area of the circle</h1>
+        <label>First Name</label>
+        <input type="text" id="fname" placeholder="plz enter the first name">
+        <label>Last Name</label>
+        <input type="text" id="lname" placeholder="plz enter the last name">
+        <button onclick="fun()">submit</button>
+        <label>OUTPUT</label>
+        <input type="text" id="out" placeholder="OUTPUT">
+    </body>
+    <script>
+        function fun()
+        {
+           if(document.getElementById("fname").value.length==0)
+           {
+            document.getElementById("out").value="enter first name";
+           }
+           
+            else if(document.getElementById("lname").value.length==0)
+            {
+                document.getElementById("out").value="enter last name";
+            }
+            
+            else 
+            {document.getElementById("out").value=document.getElementById("fname").value+document.getElementById("lname").value;}
+        }
+    </script>
+</html>
